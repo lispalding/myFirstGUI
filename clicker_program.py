@@ -1,7 +1,7 @@
 # MADE BY: Lisette Spalding
 # FILE NAME: main.py
 # DATE CREATED: 01/20/2021
-# DATE LAST MODIFIED: 01/20/2021
+# DATE LAST MODIFIED: 01/26/2021
 
 ######### IMPORTS #########
 from tkinter import *
@@ -14,7 +14,7 @@ class App(Frame):
     This is a class that will build a clicker app. """
     def __init__(self,master): # Defining the "in it" class for App()
         super(App, self).__init__(master) # Labeling it as a master class
-        self.grid()
+        self.grid() # Applying the grid-- Adding object to grid
         self.clicks = 0
         self.colors = ["red","blue","green", "yellow"]
         self.colorIndex = 0
@@ -30,8 +30,8 @@ class App(Frame):
 
         ### Buttons
         self.addBttn = Button(self, text="Add to count")
-        self. minBttn = Button(self, text="Subtract from count")
-        self. colorBttn = Button(self, text="Change color")
+        self.minBttn = Button(self, text="Subtract from count")
+        self.colorBttn = Button(self, text="Change color")
 
         ## Button Configurations
         # Style configurations

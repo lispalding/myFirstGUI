@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95814cad-d934-497d-af73-86f16299aafe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classGUI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/password_program.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/clicker_program.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +31,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/classGUI.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/password_program.py" />
   </component>
-  <component name="RunManager" selected="Python.classGUI">
+  <component name="RunManager" selected="Python.password_program">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="MyFirstGUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -48,27 +47,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="classGUI" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="MyFirstGUI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\lisette.spalding\AppData\Local\Programs\Python\Python38-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classGUI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,9 +76,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="password_program" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="MyFirstGUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\lisette.spalding\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/password_program.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.classGUI" />
+      <item itemvalue="Python.password_program" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -117,41 +116,45 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1080" y="593" width="1080" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611175463183">
+    <state x="-1080" y="593" width="1080" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611690822967">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
-    <state x="-1080" y="593" width="1080" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1611175463183" />
+    <state x="-1080" y="593" width="1080" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1611690822967" />
     <state x="-760" y="649" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1610647438872">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
     <state x="-760" y="649" key="#com.intellij.ide.macro.MacrosDialog/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1610647438872" />
-    <state x="-760" y="699" key="FileChooserDialogImpl" timestamp="1611175462176">
+    <state x="-760" y="699" key="FileChooserDialogImpl" timestamp="1611690821670">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
-    <state x="-760" y="699" key="FileChooserDialogImpl/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1611175462176" />
-    <state width="1061" height="563" key="GridCell.Tab.0.bottom" timestamp="1611178945362">
+    <state x="-760" y="699" key="FileChooserDialogImpl/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1611690821670" />
+    <state width="1061" height="206" key="GridCell.Tab.0.bottom" timestamp="1611694669488">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
-    <state width="1061" height="563" key="GridCell.Tab.0.bottom/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1611178945362" />
-    <state width="1061" height="563" key="GridCell.Tab.0.center" timestamp="1611178945362">
+    <state width="1061" height="206" key="GridCell.Tab.0.bottom/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1611694669488" />
+    <state width="1901" height="206" key="GridCell.Tab.0.bottom/-1080.-6.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1611693862746" />
+    <state width="1061" height="206" key="GridCell.Tab.0.center" timestamp="1611694669488">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
-    <state width="1061" height="563" key="GridCell.Tab.0.center/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1611178945362" />
-    <state width="1061" height="563" key="GridCell.Tab.0.left" timestamp="1611178945362">
+    <state width="1061" height="206" key="GridCell.Tab.0.center/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1611694669488" />
+    <state width="1901" height="206" key="GridCell.Tab.0.center/-1080.-6.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1611693862745" />
+    <state width="1061" height="206" key="GridCell.Tab.0.left" timestamp="1611694669488">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
-    <state width="1061" height="563" key="GridCell.Tab.0.left/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1611178945362" />
-    <state width="1061" height="563" key="GridCell.Tab.0.right" timestamp="1611178945362">
+    <state width="1061" height="206" key="GridCell.Tab.0.left/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1611694669488" />
+    <state width="1901" height="206" key="GridCell.Tab.0.left/-1080.-6.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1611693862745" />
+    <state width="1061" height="206" key="GridCell.Tab.0.right" timestamp="1611694669488">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
-    <state width="1061" height="563" key="GridCell.Tab.0.right/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1611178945362" />
-    <state x="-860" y="762" key="com.intellij.ide.util.TipDialog" timestamp="1611178100869">
+    <state width="1061" height="206" key="GridCell.Tab.0.right/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1611694669488" />
+    <state width="1901" height="206" key="GridCell.Tab.0.right/-1080.-6.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1611693862745" />
+    <state x="-860" y="762" key="com.intellij.ide.util.TipDialog" timestamp="1611689408785">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
-    <state x="-860" y="762" key="com.intellij.ide.util.TipDialog/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1611178100869" />
-    <state x="-877" y="431" key="search.everywhere.popup" timestamp="1611172876433">
+    <state x="-860" y="762" key="com.intellij.ide.util.TipDialog/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1611689408785" />
+    <state x="-877" y="431" width="672" height="678" key="search.everywhere.popup" timestamp="1611690759895">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
-    <state x="-877" y="431" key="search.everywhere.popup/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1611172876433" />
+    <state x="-877" y="431" width="672" height="678" key="search.everywhere.popup/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1611690759895" />
   </component>
 </project>
