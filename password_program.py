@@ -19,6 +19,7 @@ class Password(Frame):
         super(Password, self).__init__(master)
         self.grid()
         self.create()
+
         self.tries = 0
 
     def create(self):
