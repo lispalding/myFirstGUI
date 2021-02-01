@@ -1,5 +1,5 @@
 # MADE BY: Lisette Spalding
-# FILE NAME: main.py
+# FILE NAME: pizza_order.py
 # DATE CREATED: 01/26/2021
 # DATE LAST MODIFIED: 02/01/2021
 
@@ -237,9 +237,9 @@ class Pizza(Frame):
         if self.spinach.get():
             toppings.append("Spinach")
 
-        order = orderSize + orderCrust + x
+        order = orderSize + "\n"+orderCrust + "\n"+x
         for top in toppings:
-            order += top
+            order += top + " "
 
         self.orderOut.delete(0.0, END)
         self.orderOut.insert(0.0, order)

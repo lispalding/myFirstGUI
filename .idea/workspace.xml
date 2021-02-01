@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95814cad-d934-497d-af73-86f16299aafe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/layout.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clicker_program.py" beforeDir="false" afterPath="$PROJECT_DIR$/clicker_program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/password_program.py" beforeDir="false" afterPath="$PROJECT_DIR$/password_program.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizza_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/pizza_order.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/password_program.py" />
   </component>
-  <component name="RunManager" selected="Python.pizza_order">
+  <component name="RunManager" selected="Python.layout">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="MyFirstGUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -47,6 +50,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="layout" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyFirstGUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\lisette.spalding\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/layout.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,9 +168,11 @@
       <item itemvalue="Python.password_program" />
       <item itemvalue="Python.pizza_order" />
       <item itemvalue="Python.password_program (1)" />
+      <item itemvalue="Python.layout" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.layout" />
         <item itemvalue="Python.pizza_order" />
         <item itemvalue="Python.password_program (1)" />
       </list>
@@ -177,12 +203,28 @@
       <option name="project" value="LOCAL" />
       <updated>1611868507609</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="02/01/2021 Commit -- 12:58PM">
+      <created>1612209525323</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612209525323</updated>
+    </task>
+    <task id="LOCAL-00004" summary="02/01/2021 Commit -- 12:59PM">
+      <created>1612209568680</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612209568680</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="01/28/2021 -- 2:13PM Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="01/28/2021 -- 2:13PM Commit" />
+    <MESSAGE value="02/01/2021 Commit -- 12:58PM" />
+    <MESSAGE value="02/01/2021 Commit -- 12:59PM" />
+    <option name="LAST_COMMIT_MESSAGE" value="02/01/2021 Commit -- 12:59PM" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1080" y="593" width="1080" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611690822967">
@@ -193,33 +235,33 @@
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
     <state x="-760" y="649" key="#com.intellij.ide.macro.MacrosDialog/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1610647438872" />
-    <state x="-902" y="534" key="CommitChangelistDialog2" timestamp="1612209550032">
+    <state x="-902" y="534" key="CommitChangelistDialog2" timestamp="1612209567820">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
-    <state x="-902" y="534" key="CommitChangelistDialog2/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612209550032" />
+    <state x="-902" y="534" key="CommitChangelistDialog2/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612209567820" />
     <state x="-760" y="699" key="FileChooserDialogImpl" timestamp="1611690821670">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
     <state x="-760" y="699" key="FileChooserDialogImpl/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1611690821670" />
-    <state width="1061" height="205" key="GridCell.Tab.0.bottom" timestamp="1612209458026">
+    <state width="1061" height="205" key="GridCell.Tab.0.bottom" timestamp="1612211053586">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
-    <state width="1061" height="205" key="GridCell.Tab.0.bottom/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612209458026" />
+    <state width="1061" height="205" key="GridCell.Tab.0.bottom/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612211053586" />
     <state width="1901" height="206" key="GridCell.Tab.0.bottom/-1080.-6.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1611693862746" />
-    <state width="1061" height="205" key="GridCell.Tab.0.center" timestamp="1612209458026">
+    <state width="1061" height="205" key="GridCell.Tab.0.center" timestamp="1612211053586">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
-    <state width="1061" height="205" key="GridCell.Tab.0.center/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612209458026" />
+    <state width="1061" height="205" key="GridCell.Tab.0.center/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612211053586" />
     <state width="1901" height="206" key="GridCell.Tab.0.center/-1080.-6.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1611693862745" />
-    <state width="1061" height="205" key="GridCell.Tab.0.left" timestamp="1612209458026">
+    <state width="1061" height="205" key="GridCell.Tab.0.left" timestamp="1612211053586">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
-    <state width="1061" height="205" key="GridCell.Tab.0.left/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612209458026" />
+    <state width="1061" height="205" key="GridCell.Tab.0.left/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612211053586" />
     <state width="1901" height="206" key="GridCell.Tab.0.left/-1080.-6.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1611693862745" />
-    <state width="1061" height="205" key="GridCell.Tab.0.right" timestamp="1612209458026">
+    <state width="1061" height="205" key="GridCell.Tab.0.right" timestamp="1612211053586">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
-    <state width="1061" height="205" key="GridCell.Tab.0.right/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612209458026" />
+    <state width="1061" height="205" key="GridCell.Tab.0.right/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612211053586" />
     <state width="1901" height="206" key="GridCell.Tab.0.right/-1080.-6.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1611693862745" />
     <state width="1061" height="688" key="GridCell.Tab.1.bottom" timestamp="1611868572070">
       <screen x="-1080" y="-6" width="1080" height="1890" />
@@ -245,10 +287,10 @@
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
     <state x="-860" y="762" key="com.intellij.ide.util.TipDialog/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612206862482" />
-    <state x="-744" y="855" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612209553613">
+    <state x="-744" y="855" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612211298536">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
-    <state x="-744" y="855" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612209553613" />
+    <state x="-744" y="855" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612211298536" />
     <state x="-877" y="431" width="672" height="678" key="search.everywhere.popup" timestamp="1611690759895">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>

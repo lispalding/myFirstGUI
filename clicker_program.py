@@ -1,5 +1,5 @@
 # MADE BY: Lisette Spalding
-# FILE NAME: main.py
+# FILE NAME: clicker_program.py
 # DATE CREATED: 01/20/2021
 # DATE LAST MODIFIED: 01/26/2021
 
