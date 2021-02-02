@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95814cad-d934-497d-af73-86f16299aafe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apollo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rhea.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rose.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout.py" beforeDir="false" afterPath="$PROJECT_DIR$/layout.py" afterDir="false" />
-    </list>
+    <list default="true" id="95814cad-d934-497d-af73-86f16299aafe" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -229,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612211322536</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="02/01/2021 Commit -- 2:13PM">
+      <created>1612214035698</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612214035698</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -237,7 +238,8 @@
     <MESSAGE value="02/01/2021 Commit -- 12:58PM" />
     <MESSAGE value="02/01/2021 Commit -- 12:59PM" />
     <MESSAGE value="02/01/2021 Commit -- 1:28PM" />
-    <option name="LAST_COMMIT_MESSAGE" value="02/01/2021 Commit -- 1:28PM" />
+    <MESSAGE value="02/01/2021 Commit -- 2:13PM" />
+    <option name="LAST_COMMIT_MESSAGE" value="02/01/2021 Commit -- 2:13PM" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1080" y="593" width="1080" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611690822967">
@@ -248,33 +250,33 @@
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
     <state x="-760" y="649" key="#com.intellij.ide.macro.MacrosDialog/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1610647438872" />
-    <state x="-902" y="534" key="CommitChangelistDialog2" timestamp="1612214010370">
+    <state x="-902" y="534" key="CommitChangelistDialog2" timestamp="1612214034699">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
-    <state x="-902" y="534" key="CommitChangelistDialog2/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612214010370" />
+    <state x="-902" y="534" key="CommitChangelistDialog2/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612214034699" />
     <state x="-760" y="699" key="FileChooserDialogImpl" timestamp="1611690821670">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
     <state x="-760" y="699" key="FileChooserDialogImpl/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1611690821670" />
-    <state width="1061" height="205" key="GridCell.Tab.0.bottom" timestamp="1612213930811">
+    <state width="1061" height="205" key="GridCell.Tab.0.bottom" timestamp="1612214041130">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
-    <state width="1061" height="205" key="GridCell.Tab.0.bottom/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612213930811" />
+    <state width="1061" height="205" key="GridCell.Tab.0.bottom/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612214041130" />
     <state width="1901" height="205" key="GridCell.Tab.0.bottom/-1080.-6.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1612211849259" />
-    <state width="1061" height="205" key="GridCell.Tab.0.center" timestamp="1612213930810">
+    <state width="1061" height="205" key="GridCell.Tab.0.center" timestamp="1612214041130">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
-    <state width="1061" height="205" key="GridCell.Tab.0.center/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612213930810" />
+    <state width="1061" height="205" key="GridCell.Tab.0.center/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612214041130" />
     <state width="1901" height="205" key="GridCell.Tab.0.center/-1080.-6.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1612211849259" />
-    <state width="1061" height="205" key="GridCell.Tab.0.left" timestamp="1612213930810">
+    <state width="1061" height="205" key="GridCell.Tab.0.left" timestamp="1612214041130">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
-    <state width="1061" height="205" key="GridCell.Tab.0.left/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612213930810" />
+    <state width="1061" height="205" key="GridCell.Tab.0.left/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612214041130" />
     <state width="1901" height="205" key="GridCell.Tab.0.left/-1080.-6.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1612211849259" />
-    <state width="1061" height="205" key="GridCell.Tab.0.right" timestamp="1612213930810">
+    <state width="1061" height="205" key="GridCell.Tab.0.right" timestamp="1612214041130">
       <screen x="-1080" y="-6" width="1080" height="1890" />
     </state>
-    <state width="1061" height="205" key="GridCell.Tab.0.right/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612213930810" />
+    <state width="1061" height="205" key="GridCell.Tab.0.right/-1080.-6.1080.1890/0.0.1920.1050@-1080.-6.1080.1890" timestamp="1612214041130" />
     <state width="1901" height="205" key="GridCell.Tab.0.right/-1080.-6.1080.1890/0.0.1920.1050@0.0.1920.1050" timestamp="1612211849259" />
     <state width="1061" height="688" key="GridCell.Tab.1.bottom" timestamp="1611868572070">
       <screen x="-1080" y="-6" width="1080" height="1890" />
