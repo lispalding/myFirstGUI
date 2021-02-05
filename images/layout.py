@@ -28,19 +28,19 @@ class App(Frame):
 
         # Button(text="Click Me").place(x=Width/2,y=Height/2)
 
-        img1 = Image.open("rhea.jpg")
+        img1 = Image.open("eikichi.jpg")
         firstImg = ImageTk.PhotoImage(img1)
         self.lbl1 = Label(self, image=firstImg)
         self.lbl1.image = firstImg
         self.lbl1.place(x=0,y=60)
 
-        img2 = Image.open("apollo2.jpg")
+        img2 = Image.open("hsOC.jpg")
         secondImg = ImageTk.PhotoImage(img2)
         self.lbl2 = Label(self, image=secondImg)
         self.lbl2.image = secondImg
         self.lbl2.place(x=250, y=60)
 
-        img3 = Image.open("rose.jpg")
+        img3 = Image.open("lightning.jpg")
         thirdImg = ImageTk.PhotoImage(img3)
         self.lbl3 = Label(self, image=thirdImg)
         self.lbl3.image = thirdImg
