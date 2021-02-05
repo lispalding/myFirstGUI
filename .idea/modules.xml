@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MyFirstGUI.iml" filepath="$PROJECT_DIR$/.idea/MyFirstGUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/myFirstGUI.iml" filepath="$PROJECT_DIR$/.idea/myFirstGUI.iml" />
     </modules>
   </component>
 </project>

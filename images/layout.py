@@ -38,7 +38,7 @@ class App(Frame):
         secondImg = ImageTk.PhotoImage(img2)
         self.lbl2 = Label(self, image=secondImg)
         self.lbl2.image = secondImg
-        self.lbl2.place(x=250, y=60)
+        self.lbl2.place(x=270, y=60)
 
         img3 = Image.open("lightning.jpg")
         thirdImg = ImageTk.PhotoImage(img3)
@@ -50,7 +50,7 @@ class App(Frame):
 
 def main():
     root = Tk()
-    root.geometry("300x280+300+300")
+    root.geometry("770x280+300+300")
 
     app = App(root)
 
