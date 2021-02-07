@@ -1,19 +1,20 @@
 # MADE BY: Lisette Spalding
 # FILE NAME: password_program.py
 # DATE CREATED: 01/26/2021
-# DATE LAST MODIFIED: 01/26/2021
+# DATE LAST MODIFIED: 02/07/2021
 
 ############ IMPORTS ############
 from tkinter import *
 from tkinter import font as font
+import os
 ############## FIN ##############
 
 ######### GUI EDITING #########
 class Password(Frame):
     """ To use: Password(root)
     This is the Password class, it will build a password window. """
-    usernames = ["Lisette"]
-    passwords = ["Password"]
+    usernames = ["lspalding"]
+    passwords = ["Password0123"]
 
     def __init__(self, master):
         super(Password, self).__init__(master)
@@ -21,6 +22,7 @@ class Password(Frame):
         self.create()
 
         self.tries = 0
+        self.toggled = True
 
     def create(self):
         """ To use: create()
@@ -33,6 +35,7 @@ class Password(Frame):
 
         ## BUTTONS ##
         self.submitBttn = Button(self, text="Submit!")
+        self.passShowTog = Button(self, text="Show/Hide Password")
         #### FIN ####
 
         ### ENTRY ###
@@ -56,12 +59,14 @@ class Password(Frame):
 
         # Button(s)
         self.submitBttn.grid(row=3, column=0, sticky=W)
+        self.passShowTog.grid(row=3, column=1, sticky=W)
 
         # Text Fields
         self.output.grid(row=4, column=0, columnspan=3)
 
         ## Commands
         self.submitBttn["command"]=self.submit
+        self.passShowTog["command"]=self.toggle
 
         ## Configurations
         # Entry(s)
@@ -69,6 +74,16 @@ class Password(Frame):
 
         # Text Entries
         self.output.config(width=40)
+
+    def toggle(self):
+        if self.toggled == True:
+            self.passEnt.config(show="")
+            self.toggled = False
+            return self.toggled
+        else:
+            self.passEnt.config(show="*")
+            self.toggled = True
+            return self.toggled
 
     def submit(self):
         """ To use: submit()
@@ -79,6 +94,9 @@ class Password(Frame):
         if username in self.usernames:
             if password in self.passwords:
                 message = "You got in!"
+
+                import clicker_program
+                open("clicker_program.py")
             else:
                 message = "Wrong password."
                 self.tries += 1
@@ -98,6 +116,7 @@ class Password(Frame):
             self.passEnt.configure(state=DISABLED)
             self.submitBttn.configure(state=DISABLED)
 
+
         print(message)
 
 
@@ -106,7 +125,7 @@ class Password(Frame):
 ###### Setting up GUI window ######
 root = Tk() # Every Tkinter project needs this
 root.title("Password!")
-root.geometry("300x450") # Setting the frame (window) height and width
+root.geometry("380x450") # Setting the frame (window) height and width
 root.attributes("-fullscreen", False)
 ############### FIN ###############
 

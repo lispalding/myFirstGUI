@@ -2,7 +2,7 @@
 # FILE NAME: clicker_program.py
 # PYTHON VER. USED: 3.8
 # DATE CREATED: 01/20/2021
-# DATE LAST MODIFIED: 02/06/2021
+# DATE LAST MODIFIED: 02/07/2021
 
 ######### IMPORTS #########
 from tkinter import *
