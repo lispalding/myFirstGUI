@@ -1,5 +1,6 @@
 # MADE BY: Lisette Spalding
 # FILE NAME: layout.py
+# PYTHON VER. USED: 3.8
 # DATE CREATED: 02/01/2021
 # DATE LAST MODIFIED: 02/01/2021
 
