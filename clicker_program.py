@@ -2,7 +2,7 @@
 # FILE NAME: clicker_program.py
 # PYTHON VER. USED: 3.8
 # DATE CREATED: 01/20/2021
-# DATE LAST MODIFIED: 01/26/2021
+# DATE LAST MODIFIED: 02/06/2021
 
 ######### IMPORTS #########
 from tkinter import *
@@ -20,6 +20,7 @@ class App(Frame):
         super(App, self).__init__(master) # Labeling it as a master class
         self.grid() # Applying the grid-- Adding object to grid
         self.clicks = 0
+        self.time0 = time.time()
 
         self.secCalc = self.calcSecs()
         self.tapPerSec = self.clicksPerSec()
@@ -37,11 +38,15 @@ class App(Frame):
     def createWidgets(self):
         """ To use: self.createWidgets()
         This method creates widgets for the app. In the window. """
+
         ### Labels
         self.lblTotal = Label(self, text="Total Clicks: ")
         self.lblNumClicks = Label(self, text=str(self.clicks))
         self.lblSecClicks = Label(self, text="Clicks Per Second: ")
-        self.lblClickPerSec = Label(self, text=str(self.tapPerSec))
+        self.lblClickPerSec = Label(self, text=self.tapPerSec)
+
+        ## Label Configuration
+        self.after(1000, self.lblReset)
 
         ### Buttons
         self.addBttn = Button(self, text="Add to count")
@@ -55,12 +60,9 @@ class App(Frame):
         self.minBttn.config(width=28)
 
         # Command Configuration
-        self.addBttn["command"] = self.addToCount
-        self.minBttn["command"] = self.subtractFromCount
+        self.addBttn["command"] = self.updateAndAdd
+        self.minBttn["command"] = self.updateAndSubtract
         self.colorBttn["command"] = self.changeColor
-
-        # After Configuration
-        self.lblClickPerSec.after(1000, self.refreshClickLbl)
 
         ## Placing buttons and all that on the grid
         self.lblSecClicks.grid()
@@ -83,10 +85,13 @@ class App(Frame):
 
             self.lblChangeColor1(self.lblTotal)
 
+        self.calcSecs()
+
 
     def subtractFromCount(self):
         """ To use: self.subtractFromAccount()
          This is a method that subtracts from the click count."""
+        self.calcSecs()
 
         if self.clicks > 0:
             self.clicks -= 1
@@ -147,37 +152,53 @@ class App(Frame):
     def calcSecs(self):
         """ To use: self.calcSecs()
                 This is a function that will calculate how many seconds that the program has been open."""
-        startTime = time.time()
-        sec0 = time.time() - startTime
+        time1 = time.time()
 
-        sec = int(sec0)
+        timeSec = self.time0 - time1
+
+        sec = timeSec*-1
+        sec = int(sec)
         return sec
 
     def clicksPerSec(self):
         """ To use: self.clicksPerSec()
                 This is a function that will calculate how many clicks have been done per second."""
         if self.secCalc == 0:
-            self.secCalc += 0.01
-
-            tapSec = self.clicks // (self.secCalc*100)
-
-            if tapSec <= 0:
-                tapSec = 0
+            tapSec = 0
         else:
-            tapSec = (self.clicks // (self.secCalc*100))
-
-            if tapSec <= 0:
-                tapSec = 0
+            tapSec = (self.clicks // self.secCalc)
 
         tapSec = int(tapSec)
-        self.tapPerSec = tapSec
+        self.tapPerSec = str(tapSec)
         return self.tapPerSec
 
-    def refreshClickLbl(self):
-        clickTxt = self.tapPerSec
+    def refreshSec(self):
+        self.secCalc = self.calcSecs()
 
-        self.lblClickPerSec.config(text=clickTxt)
-        self.lblClickPerSec.after(1000, self.refreshClickLbl)
+        self.after(1000, self.refreshSec)
+        return self.secCalc
+
+    def lblReset(self):
+        self.lblClickPerSec["text"] = " "
+        self.lblClickPerSec["text"] = "0"
+
+        self.after(1000, self.lblReset)
+
+    def updateAndAdd(self):
+        self.addToCount()
+        self.clickTxt = self.clicksPerSec()
+
+        self.lblClickPerSec["text"] = " "
+        self.lblClickPerSec["text"] = self.clickTxt
+        return self.lblClickPerSec
+
+    def updateAndSubtract(self):
+        self.subtractFromCount()
+        self.clickTxt = self.clicksPerSec()
+
+        self.lblClickPerSec["text"] = " "
+        self.lblClickPerSec["text"] = self.clickTxt
+        return self.lblClickPerSec
 
 
 ############# FIN #############
@@ -185,13 +206,14 @@ class App(Frame):
 def main():
     ### Setting up GUI window ###
     root = Tk()  # Every Tkinter project needs this
-    root.title("First GUI!")
+    root.title("Clicker Program!")
     root.geometry("400x400")  # Setting the frame (window) height and width
     root.attributes("-fullscreen", False)
     ############ FIN ############
 
     app = App(root)
 
+    app.refreshSec()
     root.mainloop()  # Calling up the window...
 
 main()
